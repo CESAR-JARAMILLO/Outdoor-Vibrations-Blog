@@ -1,6 +1,7 @@
 <template>
   <Navbar />
   <Landing />
+  <img class="vector" src="./assets/vector.png" alt="">
 </template>
 
 <script>
@@ -22,5 +23,14 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+}
+
+.vector {
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 50vh;
 }
 </style>
